@@ -1,4 +1,4 @@
-const woo_commerce = require('../screens/android/woo-commerce.screen');
+const woo_commerce = require('../../screens/android/woo-commerce.screen')
 
 describe('Cadastro de produto', () => {
 

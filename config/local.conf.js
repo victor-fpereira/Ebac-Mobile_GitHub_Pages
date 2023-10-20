@@ -1,4 +1,4 @@
-const { generalConf } = require('./general.conf.js');
+const { generalConfig } = require('./general.conf.js');
 
 let capabilities = {
     "platformName": "Android",
@@ -14,8 +14,8 @@ let capabilities = {
     newCommandTimeout: 240
 }
 
-let localConf = {
-    ...generalConf,
+let localConfig = {
+    ...generalConfig,
     ...capabilities,
     baseUrl: 'http://127.0.0.1',
     hostname: 'localhost',
@@ -23,4 +23,4 @@ let localConf = {
     services: ['appium']
 }
 
-module.exports = { localConf }
+module.exports = { localConfig }

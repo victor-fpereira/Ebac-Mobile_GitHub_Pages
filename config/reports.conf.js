@@ -1,6 +1,6 @@
 require('dotenv').config()
 
-let reportersConfig = process.env.REPORT == true ? {
+let reportersConfig = process.env.REPORT == 'true' ? {
 
     reporters: ['spec']
 

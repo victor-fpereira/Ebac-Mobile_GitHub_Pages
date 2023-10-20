@@ -370,3 +370,5 @@ class StoreScreen {
     }
 
 }
+
+module.exports = new StoreScreen()

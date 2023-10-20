@@ -1,4 +1,4 @@
-const productViewScreen = require('../screens/ios/store.screen');
+const productViewScreen = require('../../screens/ios/store.screen.js')
 
 describe('Carrinho de compras', () => {
 
