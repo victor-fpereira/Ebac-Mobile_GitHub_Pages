@@ -9,7 +9,7 @@ let capabilities = {
       [
         'browserstack',
         {
-          app: 'bs://4ba9106edeab22639228de19c87dfde48ef26129',
+          app: 'EBAC_IOS',
           buildIdentifier: "${BUILD_NUMBER}",
           browserstackLocal: true
         },
