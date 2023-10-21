@@ -3,7 +3,7 @@ name: EBAC CI Mobile
   push:
     branches:
       - ci
-workflow_dispatch: null
+  workflow_dispatch: null
 jobs:
   test:
     runs-on: ubuntu-latest
